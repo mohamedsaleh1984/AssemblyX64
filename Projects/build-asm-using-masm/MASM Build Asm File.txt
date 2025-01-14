@@ -1,0 +1,1 @@
+ml64 hello.asm /link /subsystem:console /entry:main

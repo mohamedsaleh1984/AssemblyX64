@@ -14,3 +14,7 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
 
 zodiacon Tools
 https://github.com/zodiacon/AllTools
+
+env variable
+_NT_SYMBOL_PATH
+SRV*C:\Symbols*http://msdl.microsoft.com/download/symbols
