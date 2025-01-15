@@ -1,0 +1,8 @@
+1. store 500 in lower register in RAX
+   store 2000 in higher register in RAX
+   return the value
+   extract the two values in the two parts
+   call beep function with lower value
+
+2. externdef Beep
+   call(500,2000)
