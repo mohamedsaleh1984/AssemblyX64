@@ -3,3 +3,14 @@ https://github.com/PawelWorzala666/masm64-SDK
 
 x86 and amd64 instruction reference
 https://www.felixcloutier.com/x86/
+
+Windows SDK
+install Debugging Tools ONLY
+https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
+
+Sysinternals 
+Download Sysinternals Suite (50.5 MB)
+https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+
+zodiacon Tools
+https://github.com/zodiacon/AllTools
