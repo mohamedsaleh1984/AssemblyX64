@@ -5,7 +5,7 @@ extern INT64 CountOneBits();
 
 int main() {
 
-	int num = 222;
+	int num = 13;
 	INT64 result = CountOneBits(num);
 	printf("%d one bits = %lld\n", num, result);
 
