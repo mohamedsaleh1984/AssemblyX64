@@ -24,7 +24,7 @@
     <ProjectGuid>{73b0cf0b-a7a0-42e2-8783-78112d041554}</ProjectGuid>
     <RootNamespace>Arrays</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ArraySumInAssembly</ProjectName>
+    <ProjectName>04_ArraySumInAssembly</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
