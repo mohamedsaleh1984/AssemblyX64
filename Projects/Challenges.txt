@@ -9,4 +9,6 @@
 
 3. Call CountOneBits
 	How many One's in a number and return the value in 64bit register
- 
+ 	Comment the given code
+
+4. Create power function using assembly and call it from c program.
