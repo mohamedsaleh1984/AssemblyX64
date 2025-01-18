@@ -51,6 +51,9 @@ Personal Repo for x64 Assembly learning and practice.
 3. Register Indirect Addressing Mode (Use the address stored in a register)
 ```
     mov [rax], ebx ; since we use the address we shouldn't worry about the register size
+    mov [rcx], al
+    mov [rbx], dword ptr 12; MUST mention the data type
+
 ```
 4. Indirect Offset Addressing Mode 
 ```
@@ -69,3 +72,6 @@ mov [rax + rsi * 2 ], edx
 
 add rbx, [rsi + rdi * 8 + 72]
 ```
+
+13. Stack
+
