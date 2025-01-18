@@ -1,6 +1,18 @@
 ### Assembly
 Personal Repo for x64 Assembly learning and practice.
 
+[Youtube Video Source](https://www.youtube.com/watch?v=nGivmJMlBH8)
+
+## How to Move around 
+
+[Books](Books/)
+
+[Intel-Arm-Manuals](Manuals/)
+
+[Tools](Tools/)
+
+## Projects 
+
 1. Configure c project to work with assembly in VS 2022
 [C With Assembly](Projects/VS-ASM-TEMPLATE/Assembly%20Project.zip)
 
