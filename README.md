@@ -11,6 +11,10 @@ Personal Repo for x64 Assembly learning and practice.
 
 [Tools](Tools/)
 
+## VS Extensions for better Dev Experience 
+1. AsmDude2
+2. VSColorOutput
+
 ## Projects 
 
 1. Configure c project to work with assembly in VS 2022
@@ -38,3 +42,5 @@ Personal Repo for x64 Assembly learning and practice.
 10. Arrays and Memory Manipulation in x64 assembly [LINK](/Projects/Arrays)
 
 11. Beeper Project [Link](Projects/Beeper/) Custom Beeper 
+
+12. Sections, LEA, Addressing Modes
