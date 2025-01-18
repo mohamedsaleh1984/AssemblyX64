@@ -57,7 +57,8 @@ Personal Repo for x64 Assembly learning and practice.
 ```
 4. Indirect Offset Addressing Mode 
 ```
-    mov [rax+ 10h], cx      ; Move data from CX to the address stored in RAX+10h(Bytes) offset 
+    mov [rax + 10h], cx      ; Move data from CX to the address stored in RAX+10h(Bytes) offset 
+    mov al, [rsi-3]          ; -/+ to move up/dow in bytes scale
 ```
 5. Scaled Indexed Addressing Mode using [Base + Index * Scale + Displacement] using mainly for arrays or sequential data/memory
 ```
@@ -73,5 +74,5 @@ mov [rax + rsi * 2 ], edx
 add rbx, [rsi + rdi * 8 + 72]
 ```
 
-13. Stack
+
 
