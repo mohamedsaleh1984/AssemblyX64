@@ -74,5 +74,15 @@ mov [rax + rsi * 2 ], edx
 add rbx, [rsi + rdi * 8 + 72]
 ```
 
+13. Stack (Depends on the compiler might be upside down as in MASM)
 
+RSP: Stack Pointer Points to the TOP of the stack (Highest Address in Stack Segment)
+
+|Instruction | Details| Sample|Notes|
+|------------|--------|-------|-----|
+|push|Decremnet the RSP and copy the value (reg64/mem64/reg16/mem16/const32) |``` push eax ```| zero extension to 64-bit|
+|pop|Place the value (reg64/mem64/reg32/mem32/reg16/mem16)to the resgister and increment the RSP |``` pop eax```|zero extension to 64-bit|
+|mov|copy the value from RSP to RAX without chaning RSP position | ``` mov RAX,[RSP] OR mov RAX,[RSP + 8] ``` |Doesn't change RSP position|
+|add|used to move the RSP backword the stack segment|``` add RSP,16 ``` | Move backword 2 element as if pop twice, changes RSP position|
+|sub|used to move the RSP foward the stack segment|``` sub RSP,16 ``` | Move foward 2 element to reserve memory for something| change RSP position|
 
