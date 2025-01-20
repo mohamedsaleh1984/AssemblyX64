@@ -15,8 +15,6 @@ Personal Repo for x64 Assembly learning and practice.
 1. AsmDude2
 2. VSColorOutput
 
-## Projects 
-
 1. Configure c project to work with assembly in VS 2022
 [C With Assembly](Projects/VS-ASM-TEMPLATE/Assembly%20Project.zip)
 
@@ -29,20 +27,22 @@ Personal Repo for x64 Assembly learning and practice.
 4. Build asm using MASM
 [Link](Projects/build-asm-using-masm/)
 
-5. Challange 1 [Link](Projects/Challenge_01/) Register Manipulation Problem [statement](/Projects/Challenges.txt)
+5. Arrays and Memory Manipulation in x64 assembly [LINK](/Projects/Arrays)
 
-6. Challange 2 [Link](Projects/Challenge_02/) Win32API Calling Problem [statement](/Projects/Challenges.txt)
+6. Sections, LEA, Addressing Modes
 
-7. Challange 3 [Link](Projects/Challenge_03/) CountOnes Problem [statement](/Projects/Challenges.txt)
+7. Stack
 
-8. Challange 4 [Link](Projects/Challenge_04/) Power function Problem [statement](/Projects/Challenges.txt)
+## Projects 
 
-9. Challange 4 [Link](Projects/Challenge_05/) Factorial Problem [statement](/Projects/Challenges.txt)
+1. Challange 1 [Link](Projects/Challenge_01/) Register Manipulation Problem [statement](/Projects/Challenges.txt)
 
-10. Arrays and Memory Manipulation in x64 assembly [LINK](/Projects/Arrays)
+2. Challange 2 [Link](Projects/Challenge_02/) Win32API Calling Problem [statement](/Projects/Challenges.txt)
 
-11. Beeper Project [Link](Projects/Beeper/) Custom Beeper 
+3. Challange 3 [Link](Projects/Challenge_03/) CountOnes Problem [statement](/Projects/Challenges.txt)
 
-12. Sections, LEA, Addressing Modes
+4. Challange 4 [Link](Projects/Challenge_04/) Power function Problem [statement](/Projects/Challenges.txt)
 
-13. Stack
+5. Challange 4 [Link](Projects/Challenge_05/) Factorial Problem [statement](/Projects/Challenges.txt)
+
+6. Beeper Project [Link](Projects/Beeper/) Custom Beeper 
