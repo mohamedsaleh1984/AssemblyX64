@@ -1,9 +1,23 @@
+externdef CreateFileA:proc
+
 .const
 
 .data
 
 .code
 
+
+; To maintain the Stack Pointer before and after the proc,
+; we push rbp (current value in Base Pointer)
+; move Stack Pointer address to rbp
+; ....proc instruction 1
+; ......
+; ....proc instruction n
+; move back rbp to rsp 
+; pop rbp
+
+; This trick doesn't guarantee that STACK Segment will be empty or Zeros
+; we are just maintaining the RSP address.
 main proc 
 	
 	; prologue
