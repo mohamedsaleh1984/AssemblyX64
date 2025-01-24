@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_FileCreation", "09_FileC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_RSP_Workaround", "10_RSP_Workaround\10_RSP_Workaround.vcxproj", "{ACBDFDED-C77B-4EF2-8473-539FF8114363}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Challenge_06", "Challenge_06\Challenge_06.vcxproj", "{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{ACBDFDED-C77B-4EF2-8473-539FF8114363}.Release|x64.Build.0 = Release|x64
 		{ACBDFDED-C77B-4EF2-8473-539FF8114363}.Release|x86.ActiveCfg = Release|Win32
 		{ACBDFDED-C77B-4EF2-8473-539FF8114363}.Release|x86.Build.0 = Release|Win32
+		{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}.Debug|x64.ActiveCfg = Debug|x64
+		{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}.Debug|x64.Build.0 = Debug|x64
+		{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}.Debug|x86.ActiveCfg = Debug|Win32
+		{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}.Debug|x86.Build.0 = Debug|Win32
+		{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}.Release|x64.ActiveCfg = Release|x64
+		{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}.Release|x64.Build.0 = Release|x64
+		{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}.Release|x86.ActiveCfg = Release|Win32
+		{09C4D878-BA4E-45C8-987B-D1CDE3340D3D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

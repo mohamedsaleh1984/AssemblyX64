@@ -15,3 +15,4 @@
 
 5. Create factorial in assembly and call it from a c program 
 
+6. Create File and write Hello World and close the file using Win32 API.
