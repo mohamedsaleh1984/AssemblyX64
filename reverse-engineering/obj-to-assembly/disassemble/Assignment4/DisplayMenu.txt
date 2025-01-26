@@ -1,0 +1,16 @@
+Dump of assembler code for function DisplayMenu:
+   0x00000000004006df <+0>:	push   %rbp
+   0x00000000004006e0 <+1>:	mov    %rsp,%rbp
+   0x00000000004006e3 <+4>:	mov    $0x400851,%edi
+   0x00000000004006e8 <+9>:	call   0x4004e0 <puts@plt>
+   0x00000000004006ed <+14>:	mov    $0x400864,%edi
+   0x00000000004006f2 <+19>:	call   0x4004e0 <puts@plt>
+   0x00000000004006f7 <+24>:	mov    $0x400871,%edi
+   0x00000000004006fc <+29>:	call   0x4004e0 <puts@plt>
+   0x0000000000400701 <+34>:	mov    $0x40087e,%edi
+   0x0000000000400706 <+39>:	call   0x4004e0 <puts@plt>
+   0x000000000040070b <+44>:	mov    $0x400851,%edi
+   0x0000000000400710 <+49>:	call   0x4004e0 <puts@plt>
+   0x0000000000400715 <+54>:	pop    %rbp
+   0x0000000000400716 <+55>:	ret
+End of assembler dump.

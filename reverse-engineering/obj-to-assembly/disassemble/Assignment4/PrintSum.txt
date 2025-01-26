@@ -1,0 +1,28 @@
+Dump of assembler code for function PrintSum:
+   0x0000000000400688 <+0>:	push   %rbp
+   0x0000000000400689 <+1>:	mov    %rsp,%rbp
+   0x000000000040068c <+4>:	sub    $0x20,%rsp
+   0x0000000000400690 <+8>:	mov    %edi,-0x14(%rbp)
+   0x0000000000400693 <+11>:	movl   $0x0,-0x4(%rbp)
+   0x000000000040069a <+18>:	mov    -0x14(%rbp),%eax
+   0x000000000040069d <+21>:	mov    %eax,-0x8(%rbp)
+   0x00000000004006a0 <+24>:	jmp    0x4006c0 <PrintSum+56>
+   0x00000000004006a2 <+26>:	mov    -0x8(%rbp),%eax
+   0x00000000004006a5 <+29>:	add    %eax,-0x4(%rbp)
+   0x00000000004006a8 <+32>:	mov    -0x8(%rbp),%eax
+   0x00000000004006ab <+35>:	mov    %eax,%esi
+   0x00000000004006ad <+37>:	mov    $0x400844,%edi
+   0x00000000004006b2 <+42>:	mov    $0x0,%eax
+   0x00000000004006b7 <+47>:	call   0x4004f0 <printf@plt>
+   0x00000000004006bc <+52>:	subl   $0x1,-0x8(%rbp)
+   0x00000000004006c0 <+56>:	cmpl   $0x0,-0x8(%rbp)
+   0x00000000004006c4 <+60>:	jg     0x4006a2 <PrintSum+26>
+   0x00000000004006c6 <+62>:	mov    -0x4(%rbp),%eax
+   0x00000000004006c9 <+65>:	mov    %eax,%esi
+   0x00000000004006cb <+67>:	mov    $0x400848,%edi
+   0x00000000004006d0 <+72>:	mov    $0x0,%eax
+   0x00000000004006d5 <+77>:	call   0x4004f0 <printf@plt>
+   0x00000000004006da <+82>:	mov    -0x4(%rbp),%eax
+   0x00000000004006dd <+85>:	leave
+   0x00000000004006de <+86>:	ret
+End of assembler dump.

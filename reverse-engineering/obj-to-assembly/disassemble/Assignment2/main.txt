@@ -1,0 +1,26 @@
+main
+
+Dump of assembler code for function main:
+   0x000000000040062d <+0>:	push   %rbp
+   0x000000000040062e <+1>:	mov    %rsp,%rbp
+   0x0000000000400631 <+4>:	sub    $0x20,%rsp
+
+   0x0000000000400635 <+8>:	mov    %fs:0x28,%rax
+   0x000000000040063e <+17>:	mov    %rax,-0x8(%rbp)
+
+   0x0000000000400642 <+21>:	xor    %eax,%eax
+   0x0000000000400644 <+23>:	mov    $0x400714,%edi
+   0x0000000000400649 <+28>:	call   0x4004e0 <puts@plt>
+   0x000000000040064e <+33>:	lea    -0x20(%rbp),%rax
+   0x0000000000400652 <+37>:	mov    %rax,%rsi
+   0x0000000000400655 <+40>:	mov    $0x40072b,%edi
+   0x000000000040065a <+45>:	mov    $0x0,%eax
+   0x000000000040065f <+50>:	call   0x400520 <__isoc99_scanf@plt>
+   0x0000000000400664 <+55>:	lea    -0x20(%rbp),%rax
+   0x0000000000400668 <+59>:	mov    %rax,%rsi
+   0x000000000040066b <+62>:	mov    $0x40072e,%edi
+   0x0000000000400670 <+67>:	mov    $0x0,%eax
+   0x0000000000400675 <+72>:	call   0x4004f0 <printf@plt>
+   0x000000000040067a <+77>:	mov    $0x0,%edi
+   0x000000000040067f <+82>:	call   0x400530 <exit@plt>
+End of assembler dump.

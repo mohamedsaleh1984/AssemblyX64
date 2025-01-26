@@ -1,0 +1,14 @@
+main
+
+Dump of assembler code for function main:
+   0x000000000040057d <+0>:	push   %rbp
+   0x000000000040057e <+1>:	mov    %rsp,%rbp
+   0x0000000000400581 <+4>:	mov    $0x400634,%edi
+   0x0000000000400586 <+9>:	call   0x400450 <puts@plt>
+   0x000000000040058b <+14>:	mov    $0x400648,%edi
+   0x0000000000400590 <+19>:	call   0x400450 <puts@plt>
+   0x0000000000400595 <+24>:	mov    $0x40065c,%edi
+   0x000000000040059a <+29>:	call   0x400450 <puts@plt>
+   0x000000000040059f <+34>:	mov    $0x0,%edi
+   0x00000000004005a4 <+39>:	call   0x400480 <exit@plt>
+End of assembler dump.

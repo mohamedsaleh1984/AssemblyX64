@@ -1,0 +1,6 @@
+
+
+Enter two numbers:%d %d
+
+%d + %d = %d
+

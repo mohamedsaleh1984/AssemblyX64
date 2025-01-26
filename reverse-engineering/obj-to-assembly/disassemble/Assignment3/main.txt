@@ -1,0 +1,30 @@
+main
+
+Dump of assembler code for function main:
+   push   %rbp
+   mov    %rsp,%rbp
+   sub    $0x10,%rsp
+   mov    $0x400734,%edi
+   call   0x4004e0 <puts@plt>
+   lea    -0x8(%rbp),%rdx
+   lea    -0xc(%rbp),%rax
+   mov    %rax,%rsi
+   mov    $0x400747,%edi
+   mov    $0x0,%eax
+   call   0x400520 <__isoc99_scanf@plt>
+   mov    -0x8(%rbp),%edx
+   mov    -0xc(%rbp),%eax
+   mov    %edx,%esi
+   mov    %eax,%edi
+   call   0x40062d <AddNumbers>
+   mov    %eax,-0x4(%rbp)
+   mov    -0x8(%rbp),%edx
+   mov    -0xc(%rbp),%eax
+   mov    -0x4(%rbp),%ecx
+   mov    %eax,%esi
+   mov    $0x40074d,%edi
+   mov    $0x0,%eax
+   call   0x4004f0 <printf@plt>
+   mov    $0x0,%edi
+   call   0x400530 <exit@plt>
+End of assembler dump.

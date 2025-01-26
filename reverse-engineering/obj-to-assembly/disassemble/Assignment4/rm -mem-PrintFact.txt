@@ -1,0 +1,29 @@
+Dump of assembler code for function PrintFact:
+   push   %rbp
+   mov    %rsp,%rbp
+   sub    $0x20,%rsp
+   mov    %edi,-0x14(%rbp)
+   movl   $0x1,-0x4(%rbp)
+   mov    -0x14(%rbp),%eax
+   mov    %eax,-0x8(%rbp)
+   jmp    0x400669 <PrintFact+60>
+   mov    -0x4(%rbp),%eax
+   imul   -0x8(%rbp),%eax
+   mov    %eax,-0x4(%rbp)
+   mov    -0x8(%rbp),%eax
+   mov    %eax,%esi
+   mov    $0x400844,%edi
+   mov    $0x0,%eax
+   call   0x4004f0 <printf@plt>
+   subl   $0x1,-0x8(%rbp)
+   cmpl   $0x0,-0x8(%rbp)
+   jg     0x400647 <PrintFact+26>
+   mov    -0x4(%rbp),%eax
+   mov    %eax,%esi
+   mov    $0x400848,%edi
+   mov    $0x0,%eax
+   call   0x4004f0 <printf@plt>
+   mov    -0x4(%rbp),%eax
+   leave
+   ret
+End of assembler dump.

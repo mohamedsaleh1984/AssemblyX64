@@ -1,0 +1,53 @@
+Dump of assembler code for function main:
+   push   %rbp
+   mov    %rsp,%rbp
+   sub    $0x10,%rsp
+   movl   $0x0,-0x8(%rbp)
+
+   jmp    0x4007a0 <main+137>
+   mov    $0x0,%eax
+   call   0x4006df <DisplayMenu>
+   
+   mov    $0x400886,%edi
+   call   0x4004e0 <puts@plt>
+   
+   lea    -0x8(%rbp),%rax
+   mov    %rax,%rsi
+   mov    $0x400899,%edi
+   mov    $0x0,%eax
+   call   0x400520 <__isoc99_scanf@plt>
+
+   mov    -0x8(%rbp),%eax
+   cmp    $0x3,%eax
+   je     0x40077a <main+99>
+   mov    $0x40089c,%edi
+   call   0x4004e0 <puts@plt>
+   
+   lea    -0x4(%rbp),%rax
+   mov    %rax,%rsi
+   mov    $0x400899,%edi
+   mov    $0x0,%eax
+   call   0x400520 <__isoc99_scanf@plt>
+   mov    -0x8(%rbp),%eax
+   
+   cmp    $0x1,%eax
+   jne    0x40078e <main+119>
+   mov    -0x4(%rbp),%eax
+   mov    %eax,%edi
+   call   0x40062d <PrintFact>
+
+   jmp    0x4007a0 <main+137>
+   mov    -0x8(%rbp),%eax
+   cmp    $0x2,%eax
+   
+   jne    0x4007a0 <main+137>
+   mov    -0x4(%rbp),%eax
+   mov    %eax,%edi
+   call   0x400688 <PrintSum>
+   
+   mov    -0x8(%rbp),%eax
+   cmp    $0x3,%eax
+   jne    0x400728 <main+17>
+   mov    $0x0,%edi
+   call   0x400530 <exit@plt>
+End of assembler dump.
